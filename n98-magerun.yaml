@@ -1,0 +1,6 @@
+autoloaders:
+  N98\Magerun\Cleanup: %module%/src
+
+event:
+  subscriber:
+    - N98\Magerun\Cleanup\EventSubscriber
